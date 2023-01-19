@@ -10,11 +10,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from transformers import TFMarianMTModel, MarianTokenizer
 import json
-from deta import Deta
 
-deta = Deta()
-
-users = deta.Base("translator_api") 
 
 app = FastAPI()
 
