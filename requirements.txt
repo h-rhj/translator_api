@@ -4,8 +4,6 @@ pydantic
 scikit-learn
 transformers
 sentencepiece
-tensorflow-gpu
-tensorflow-hub==0.12.0
-tf==1.0.0
+tensorflow-cpu
 torch
 speechrecognition
